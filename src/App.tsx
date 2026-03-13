@@ -6,7 +6,7 @@ import remarkGfm from "remark-gfm";
 
 import {
   Upload, Send, FileText, Trash2, BookOpen,
-  ChevronDown, Loader2, CheckCircle, AlertCircle,
+   Loader2, CheckCircle, AlertCircle,
   Database, Zap, Clock, BarChart2, X
 } from "lucide-react";
 
