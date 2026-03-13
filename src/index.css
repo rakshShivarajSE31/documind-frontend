@@ -11,3 +11,71 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+
+
+.bubble-markdown p {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.5;
+}
+
+.bubble-markdown h1,
+.bubble-markdown h2,
+.bubble-markdown h3 {
+  margin: 8px 0 2px 0 !important;
+  padding: 0 !important;
+  color: #E2E8F0;
+  font-size: 14px;
+}
+
+.bubble-markdown ul,
+.bubble-markdown ol {
+  margin: 2px 0 !important;
+  padding-left: 18px !important;
+}
+
+.bubble-markdown li {
+  margin: 1px 0 !important;
+  padding: 0 !important;
+}
+
+.bubble-markdown strong {
+  color: #E2E8F0;
+}
+
+.bubble-markdown * + * {
+  margin-top: 2px !important;
+}
+
+.bubble-markdown table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 6px 0;
+  font-size: 12px;
+}
+
+.bubble-markdown th {
+  background: #1E3A5F;
+  color: #E2E8F0;
+  padding: 6px 10px;
+  text-align: left;
+  border: 1px solid #2D3748;
+}
+
+.bubble-markdown td {
+  padding: 5px 10px;
+  border: 1px solid #2D3748;
+  color: #CBD5E0;
+}
+
+.bubble-markdown tr:nth-child(even) td {
+  background: #0F1623;
+}
