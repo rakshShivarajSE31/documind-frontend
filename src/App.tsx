@@ -239,7 +239,7 @@ export default function App() {
             <button onClick={() => setPreviewDoc(null)} style={{ background: "none", border: "none", color: "#8892A4", cursor: "pointer", fontSize: 18, padding: "0 4px" }}>✕</button>
           </div>
           <iframe
-            src={`http://localhost:8080/api/documents/preview/${encodeURIComponent(previewDoc)}`}
+            src={`https://3-141-165-218.nip.io/api/documents/preview/${encodeURIComponent(previewDoc)}`}
             style={{ flex: 1, border: "none", background: "#0B0E17" }}
             title={previewDoc}
           />
