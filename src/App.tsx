@@ -49,7 +49,9 @@ interface HistoryItem {
 }
 
 // const BASE = "http://localhost:8080/api/documents";
-const BASE = "http://3.141.165.218:8080/api/documents";
+// const BASE = "http://3.141.165.218:8080/api/documents";
+
+const BASE = process.env.REACT_APP_API_URL || "http://localhost:8080/api/documents";
 
 // ─── MAIN APP ─────────────────────────────────────────────────────────────────
 export default function App() {
